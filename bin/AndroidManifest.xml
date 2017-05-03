@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kim.teachskill"
+    android:versionCode="1"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="20" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_applauncher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".MainActivity"
+            android:label="教师技能训练平台"
+            android:theme="@style/title_bg" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".CategoriesActivity"
+            android:label="@string/title_activity_categories" >
+        </activity>
+        <activity
+            android:name=".model.CateItem"
+            android:label="@string/title_activity_cate_item" >
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".MmainActivity"
+            android:label="教师技能训练平台" >
+        </activity>
+        <activity      
+            android:name=".SplashActivity"
+            android:label="教师技能训练平台"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GuideActivity"
+            android:label="@string/title_activity_guide" >
+        </activity>
+    </application>
+    <!-- 权限许可 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

@@ -1,0 +1,2755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+    
+    <RelativeLayout
+    android:id="@+id/ComputerScienceView"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#fff" >
+
+    <TextView
+        android:id="@+id/ComputerScience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="1dp"
+        android:text="计算机科学"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_arrow_right" />"
+
+</RelativeLayout>
+
+    <GridLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:columnCount="2"
+      android:rowCount="2" >
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/ComputerScienceView1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/ComputerScienceView1_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/ComputerScienceView1_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/ComputerScienceText1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="ComputerScienceView1" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/ComputerScienceView2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/ComputerScienceView2_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/ComputerScienceView2_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/ComputerScienceText2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="ComputerScienceView2" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/ComputerScienceView3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/ComputerScienceView3_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/ComputerScienceView3_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/ComputerScienceText3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="ComputerScienceView3" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/ComputerScienceView4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/ComputerScienceView4_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/ComputerScienceView4_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/ComputerScienceText4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="ComputerScienceView4" />
+      </LinearLayout>
+    
+  </GridLayout>
+    
+    <RelativeLayout
+    android:id="@+id/ChineseLauguageView"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#fff" >
+
+    <TextView
+        android:id="@+id/ChineseLauguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="1dp"
+        android:text="汉语言"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_arrow_right" />
+
+</RelativeLayout>
+
+    <GridLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:columnCount="2"
+      android:rowCount="2" >
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/ChineseLauguageView1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/ChineseLauguageView1_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/ChineseLauguageView1_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/ChineseLauguageText1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="ChineseLauguageView1" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/ChineseLauguageView2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/ChineseLauguageView2_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/ChineseLauguageView2_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/ChineseLauguageText2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="ChineseLauguageView2" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/ChineseLauguageView3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/ChineseLauguageView3_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/ChineseLauguageView3_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/ChineseLauguageText3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="ChineseLauguageView3" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/ChineseLauguageView4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/ChineseLauguageView4_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/ChineseLauguageView4_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/ChineseLauguageText4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="ChineseLauguageView4" />
+      </LinearLayout>
+    
+  </GridLayout>
+  <RelativeLayout
+    android:id="@+id/MathematicsView"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#fff" >
+
+    <TextView
+        android:id="@+id/Mathematics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="1dp"
+        android:text="数学"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_arrow_right" />
+
+</RelativeLayout>
+
+    <GridLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:columnCount="2"
+      android:rowCount="2" >
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/MathematicsView1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/MathematicsView1_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/MathematicsView1_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/MathematicsText1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="MathematicsView1" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/MathematicsView2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/MathematicsView2_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/MathematicsView2_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/MathematicsText2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="MathematicsView2" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/MathematicsView3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/MathematicsView3_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/MathematicsView3_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/MathematicsText3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="MathematicsView3" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/MathematicsView4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/MathematicsView4_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/MathematicsView4_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/MathematicsText4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="MathematicsView4" />
+      </LinearLayout>
+    
+  </GridLayout>
+
+    <RelativeLayout
+    android:id="@+id/EnglishView"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#fff" >
+
+    <TextView
+        android:id="@+id/English"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="1dp"
+        android:text="英语"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_arrow_right" />
+
+</RelativeLayout>
+
+    <GridLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:columnCount="2"
+      android:rowCount="2" >
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/EnglishView1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/EnglishView1_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/EnglishView1_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/EnglishText1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="EnglishView1" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/EnglishView2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/EnglishView2_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/EnglishView2_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/EnglishText2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="EnglishView2" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/EnglishView3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/EnglishView3_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/EnglishView3_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/EnglishText3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="EnglishView3" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/EnglishView4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/EnglishView4_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/EnglishView4_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/EnglishText4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="EnglishView4" />
+      </LinearLayout>
+    
+  </GridLayout>
+  
+    <RelativeLayout
+    android:id="@+id/PhysicalView"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#fff" >
+
+    <TextView
+        android:id="@+id/Physical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="1dp"
+        android:text="物理"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_arrow_right" />
+
+</RelativeLayout>
+
+    <GridLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:columnCount="2"
+      android:rowCount="2" >
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/PhysicalView1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/PhysicalView1_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/PhysicalView1_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/PhysicalText1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="PhysicalView1" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/PhysicalView2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/PhysicalView2_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/PhysicalView2_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/PhysicalText2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="PhysicalView2" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/PhysicalView3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/PhysicalView3_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/PhysicalView3_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/PhysicalText3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="PhysicalView3" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/PhysicalView4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/PhysicalView4_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/PhysicalView4_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/PhysicalText4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="PhysicalView4" />
+      </LinearLayout>
+    
+  </GridLayout>
+    
+    <RelativeLayout
+    android:id="@+id/HistoryView"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#fff" >
+
+    <TextView
+        android:id="@+id/History"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="1dp"
+        android:text="历史"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_arrow_right" />
+
+</RelativeLayout>
+
+    <GridLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:columnCount="2"
+      android:rowCount="2" >
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/HistoryView1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/HistoryView1_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/HistoryView1_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/HistoryText1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="HistoryView1" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/HistoryView2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/HistoryView2_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/HistoryView2_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/HistoryText2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="HistoryView2" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/HistoryView3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/HistoryView3_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/HistoryView3_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/HistoryText3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="HistoryView3" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/HistoryView4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/HistoryView4_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/HistoryView4_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/HistoryText4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="HistoryView4" />
+      </LinearLayout>
+    
+  </GridLayout>
+  
+    <RelativeLayout
+    android:id="@+id/ChemistryView"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#fff" >
+
+    <TextView
+        android:id="@+id/Chemistry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="1dp"
+        android:text="化学"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_arrow_right" />
+
+</RelativeLayout>
+
+    <GridLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:columnCount="2"
+      android:rowCount="2" >
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/ChemistryView1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/ChemistryView1_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/ChemistryView1_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/ChemistryText1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="ChemistryView1" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/ChemistryView2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/ChemistryView2_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/ChemistryView2_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/ChemistryText2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="ChemistryView2" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/ChemistryView3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/ChemistryView3_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/ChemistryView3_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/ChemistryText3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="ChemistryView3" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/ChemistryView4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/ChemistryView4_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/ChemistryView4_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/ChemistryText4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="ChemistryView4" />
+      </LinearLayout>
+    
+  </GridLayout>
+  
+    <RelativeLayout
+    android:id="@+id/GeographyView"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#fff" >
+
+    <TextView
+        android:id="@+id/Geography"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="1dp"
+        android:text="地理"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_arrow_right" />
+
+</RelativeLayout>
+
+    <GridLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:columnCount="2"
+      android:rowCount="2" >
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/GeographyView1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/GeographyView1_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/GeographyView1_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/GeographyText1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="GeographyView1" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/GeographyView2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/GeographyView2_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/GeographyView2_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/GeographyText2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="GeographyView2" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/GeographyView3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/GeographyView3_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/GeographyView3_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/GeographyText3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="GeographyView3" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/GeographyView4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/GeographyView4_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/GeographyView4_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/GeographyText4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="GeographyView4" />
+      </LinearLayout>
+    
+  </GridLayout>
+  
+    <RelativeLayout
+    android:id="@+id/BiologyView"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#fff" >
+
+    <TextView
+        android:id="@+id/Biology"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="1dp"
+        android:text="生物"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_arrow_right" />
+
+</RelativeLayout>
+
+    <GridLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:columnCount="2"
+      android:rowCount="2" >
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/BiologyView1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/BiologyView1_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/BiologyView1_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/BiologyText1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="BiologyView1" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/BiologyView2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/BiologyView2_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/BiologyView2_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/BiologyText2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="BiologyView2" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/BiologyView3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/BiologyView3_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/BiologyView3_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/BiologyText3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="BiologyView3" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/BiologyView4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/BiologyView4_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/BiologyView4_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/BiologyText4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="BiologyView4" />
+      </LinearLayout>
+    
+  </GridLayout>
+  
+    <RelativeLayout
+    android:id="@+id/PolityView"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#fff" >
+
+    <TextView
+        android:id="@+id/Polity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="1dp"
+        android:text="政治"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_arrow_right" />
+
+</RelativeLayout>
+
+    <GridLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:columnCount="2"
+      android:rowCount="2" >
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/PolityView1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/PolityView1_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/PolityView1_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/PolityText1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="PolityView1" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/PolityView2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/PolityView2_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/PolityView2_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/PolityText2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="PolityView2" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/PolityView3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/PolityView3_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/PolityView3_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/PolityText3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="PolityView3" />
+      </LinearLayout>
+      
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="#EAEAEA"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/PolityView4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp" 
+                  android:src="@drawable/bili_default_image_tv_with_bg"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views"/>
+
+                  <TextView
+                      android:id="@+id/PolityView4_visited"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_danmakus" />
+
+                  <TextView
+                      android:id="@+id/PolityView4_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="    0" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/PolityText4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gray"
+              android:text="PolityView4" />
+      </LinearLayout>
+    
+  </GridLayout>
+    
+</LinearLayout>
+
+</ScrollView>
